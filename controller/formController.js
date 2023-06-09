@@ -36,6 +36,7 @@ const PutForms = async(req,res)=>{
     )
 
     res.status(200).json(updatedData)
+    console.log("hi")
 }
 
 module.exports={getForms , PostForm , PutForms}
